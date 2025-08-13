@@ -16,6 +16,7 @@ public class Teamservice {
 		System.out.println("You have selected option "+input);
 		
 		switch (input) {
+		
 		//Get all Team Details
 		case 1: {
 			System.out.println("in case 1");
@@ -31,6 +32,7 @@ public class Teamservice {
 			System.out.println(Teamrepository.getSRHTeamDetails());
 			break;
 		}
+		
 		//Get team Details By Short Name
 		case 2: {
 			System.out.println("Please Enter Your fav Teams Short Name: ");
@@ -40,6 +42,7 @@ public class Teamservice {
 			
 			break;
 		}
+		
 		//get team details by iD
 		case 3:{
 			System.out.println("Please enter Your fav Teams ID: ");
@@ -49,6 +52,7 @@ public class Teamservice {
 
 			break;
 		}
+		
 		//Default Case 
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + input);
@@ -92,59 +96,60 @@ public class Teamservice {
 	}
 	
 	private void getTeamByShortName(String shortName) {
-		//write logic to get team details by short name
+		
 		switch (shortName) {
 		case "MI": {
-			//System.out.println("MI Team Case Executed");
+			
 			System.out.println(Teamrepository.getMITeamDetails());
 			break;
 		}
 		case "CSK": {
-			//System.out.println("CSK Team Case Executed");
+			
 			System.out.println(Teamrepository.getCSKTeamDetails());
 			break;
 		}
 		case "RR": {
-			//System.out.println("RR Team Case Executed");
+			
 			System.out.println(Teamrepository.getRRTeamDetails());
 			break;
 		}
 		case "RCB": {
-			//System.out.println("RCB Team Case Executed");
+			
 			System.out.println(Teamrepository.getRCBTeamDetails());
 			break;
 		}
 		case "PBKS": {
-			//System.out.println("PBKS Team Case Executed");
+			
 			System.out.println(Teamrepository.getPBKSTeamDetails());
 			break;
 		}
 		case "SRH": {
-			//System.out.println("SRH Team Case Executed");
+			
 			System.out.println(Teamrepository.getSRHTeamDetails());
 			break;
 		}
 		case "DC": {
-			//System.out.println("SRH Team Case Executed");
+			
 			System.out.println(Teamrepository.getDCTeamDetails());
 			break;
 		}
 		case "LSG": {
-			//System.out.println("SRH Team Case Executed");
+			
 			System.out.println(Teamrepository.getLSGTeamDetails());
 			break;
 		}
 		case "KKR": {
-			//System.out.println("SRH Team Case Executed");
+			
 			System.out.println(Teamrepository.getKKRTeamDetails());
 			break;
 		}
 		case "GT": {
-			//System.out.println("SRH Team Case Executed");
+			
 			System.out.println(Teamrepository.getGTTeamDetails());
 			break;
 		}
 		default:
+			
 			throw new IllegalArgumentException("Unexpected value: " + shortName);
 		}
 	}

@@ -10,6 +10,16 @@ public class Team {
 	private float nRR;
 	private String shortName;
 	
+	//To String Method Used
+	
+	@Override
+	public String toString() {
+		return "Team [id=" + id + ", teamName=" + teamName + ", captainName=" + captainName + ", coachName=" + coachName
+				+ ", isQualified=" + isQualified + ", nRR=" + nRR + ", shortName=" + shortName + "]";
+	}
+	
+	//Getter - Setter
+	
 	public String getShortName() {
 		return shortName;
 	}
@@ -18,13 +28,6 @@ public class Team {
 		this.shortName = shortName;
 	}
 
-	@Override
-	public String toString() {
-		return "Team [id=" + id + ", teamName=" + teamName + ", captainName=" + captainName + ", coachName=" + coachName
-				+ ", isQualified=" + isQualified + ", nRR=" + nRR + ", shortName=" + shortName + "]";
-	}
-
-	//Getter - Setter
 	
 	public int getId() {
 		return id;
