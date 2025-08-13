@@ -8,6 +8,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(101);
 		team.setTeamName("Mumbai Indians");
+		team.setShortName("MI");
 		team.setCaptainName("Hardik Pandya");
 		team.setCoachName("Jaywardhane");
 		team.setQualified(false);
@@ -20,6 +21,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(102);
 		team.setTeamName("Chennai Super Kings");
+		team.setShortName("CSK");
 		team.setCaptainName("MS Dhoni");
 		team.setCoachName("Stephan Flemings");
 		team.setQualified(false);
@@ -31,6 +33,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(103);
 		team.setTeamName("Punjab Kings");
+		team.setShortName("PBKS");
 		team.setCaptainName("Shreyash Iyer");
 		team.setCoachName("Ricky Ponting");
 		team.setQualified(true);
@@ -42,6 +45,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(104);
 		team.setTeamName("Kolkata Knight Riders");
+		team.setShortName("KKR");
 		team.setCaptainName("Ajinkya Rahane");
 		team.setCoachName("Chandrakant Pandit");
 		team.setQualified(true);
@@ -53,6 +57,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(105);
 		team.setTeamName("Gujrat Titans");
+		team.setShortName("GT");
 		team.setCaptainName("Shubhman Gill");
 		team.setCoachName("Ashish Nehra");
 		team.setQualified(true);
@@ -64,6 +69,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(106);
 		team.setTeamName("Delhi Capitals");
+		team.setShortName("DC");
 		team.setCaptainName("Axar patel");
 		team.setCoachName("Hemang Badani");
 		team.setQualified(false);
@@ -75,6 +81,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(107);
 		team.setTeamName("Rajasthan Royals");
+		team.setShortName("RR");
 		team.setCaptainName("Sanju Samson");
 		team.setCoachName("Rahul Dravid");
 		team.setQualified(false);
@@ -86,6 +93,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(108);
 		team.setTeamName("Royal Challengers Banglore");
+		team.setShortName("RCB");
 		team.setCaptainName("Rajat Patidar");
 		team.setCoachName("Andy Flower");
 		team.setQualified(true);
@@ -97,6 +105,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(109);
 		team.setTeamName("Lucknow Super Giants");
+		team.setShortName("LSG");
 		team.setCaptainName("Rishabh Pant");
 		team.setCoachName("Justin Langer");
 		team.setQualified(false);
@@ -108,6 +117,7 @@ public class Teamrepository {
 		Team team=new Team();
 		team.setId(110);
 		team.setTeamName("SunRisers Hydrabad");
+		team.setShortName("SRH");
 		team.setCaptainName("Pat Cummings");
 		team.setCoachName("Daniel Vettori");
 		team.setQualified(false);

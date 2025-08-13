@@ -5,8 +5,7 @@ import service.Teamservice;
 public class Test {
 	public static void main(String[] args) {
 		Teamservice service=new Teamservice();
-		service.printTeamDetails();
-		System.out.println("Test Github");
+		//service.printTeamDetails();
+		service.selectOptions();
 	}
-
 }
